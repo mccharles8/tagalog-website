@@ -32,11 +32,15 @@ body {
 
 .flag { 
 	font-size: 100px;
+	width: 100px;
 }
 
 .flag:hover {
 	font-family: Verdana;
-	cursor: wait;
+	cursor:default;
+	text-shadow: #BF0D3E 10px 10px 10px, #FED141 -10px -10px 10px; /* x y axis (right down) and spread */
+	/* to put multiple shadows just separate with a comma */
+	color: #0032A0;
 }
 
 .images { 
@@ -74,4 +78,15 @@ th{
 
 caption{
 	caption-side: bottom;
+}
+
+.github {
+	position:absolute;
+	top:370px;
+	right:100px;
+	text-decoration:none;
+	color: #0032A0;
+	font-size:50px;
+	text-shadow: #BF0D3E 10px 10px 10px;
+	font-family:"consolas", sans-serif;
 }
